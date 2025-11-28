@@ -1,4 +1,3 @@
-# week6-tic-tac-toe-learning-ai
 # Tic-Tac-Toe Q-Learning AI
 ## Project Overview
 This project demonstrates reinforcement learning by training an AI to play Tic-Tac-Toe through trial and error, without being explicitly programmed with strategies.
@@ -45,4 +44,5 @@ During training, the AI started out making completely random moves, but after a 
 At first I didnt understand what the "states" and "Q-values" actually meant, so it was hard to understand how or what the AI was learning. But I quickly realized that a state is just the layout of the board and that a Q-value is basically the AI's rating of how good a move is. Another problem I had was that the AI didnt feel like it wasnt getting smarter, lowering the exploration rate later in training seemed to help with this issue and allowed it to use the knowledge it had accumulated.
 
 ## What I Learned
+
 I learned how reinforcement learning teaches an AI through rewards rather than explicit instructions. Next, I learned how the Q-table works, storing knowledge about which possible moves are better or worse in different states. Lastly, I learned how exploration and exploitation balance each other out during training. Overall, this project taught me that even simple rules can lead to smart behavior after enough practice.
